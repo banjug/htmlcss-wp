@@ -10,6 +10,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* clearfix  */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* contenitore centratura */
 .containerBody {
     width: 65%;
@@ -49,17 +56,10 @@ header {
 .jumbotron {
     height: 500px;
     background-color: #e1d67a;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-image: url('../img/banner.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.20);
     border-radius: 10px;
 }
 
@@ -73,29 +73,41 @@ header {
 #titoloJumbo {
     color: white;
     font-weight: 400;
+    font-size: 27px;
 }
 
 #sottotitoloJumbo {
     color: white;
     font-weight: 200;
+    font-size: 16px;
 }
 
-/* contenitore clearfix  */
+/* overlay immagine */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+
+/* contenitore clearfix main  */
 .containerMain {
-    background-color: #0086ff;
     margin-bottom: 10px;
 }
 
-/* clearfix  */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+.sectionHeader {
+    margin-bottom: 30px;
 }
 
-.sectionHeader {
-    height: 50px;
-    background-color: #abcfe7;
+.sectionHeader h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sectionHeader h4 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #888888;
 }
 
 /* widget laterale */
