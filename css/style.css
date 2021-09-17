@@ -21,7 +21,7 @@ body {
 }
 
 /* contenitore centratura */
-.containerBody {
+#containerBody {
     width: 70%;
     margin: 0 auto;
 }
@@ -94,11 +94,11 @@ header {
     font-size: 16px;
 }
 
-/* //////////////////// */
+/* /////////////////// */
 /* sezione main pagina */
 
 /* contenitore clearfix main  */
-.containerMain {
+#containerMain {
     margin-bottom: 50px;
 }
 
@@ -147,15 +147,15 @@ header {
     float: left;
 }
 
-.imgL {
+#imgL {
     background-image: url('../img/img-1.jpg');
 }
 
-.imgMain {
+#imgMain {
     background-image: url('../img/banner-2.jpg');
 }
 
-.imgR {
+#imgR {
     background-image: url('../img/img-3.jpg');
 }
 
