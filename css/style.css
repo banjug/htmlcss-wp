@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 
 /* contenitore centratura */
 .containerBody {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -55,7 +55,6 @@ header {
 /* sezione illustrazione e cta  */
 .jumbotron {
     height: 500px;
-    background-color: #e1d67a;
     margin-bottom: 40px;
     background-image: url('../img/banner.jpg');
     background-size: cover;
@@ -92,9 +91,11 @@ header {
 
 /* contenitore clearfix main  */
 .containerMain {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
+
+/* sezione titolo main section  */
 .sectionHeader {
     margin-bottom: 30px;
 }
@@ -109,6 +110,9 @@ header {
     font-weight: 400;
     color: #888888;
 }
+
+
+/* sezione colonne articoli */
 
 /* widget laterale */
 .sidebar {
@@ -128,8 +132,17 @@ header {
     margin: 1%;
 }
 
+
+/* sezione footer  */
 footer {
-    height: 100px;
-    background-color: #8801fe;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#footerText {
+    text-align: center;
+    font-weight: 400;
+}
+
+#footerHeart {
+    color: red;
 }
