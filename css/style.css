@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* contenitore centratura */
+.containerBody {
+    width: 65%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: #e579e6;
+    margin: 20px 0;
+}
+
+/* sezione illustrazione e cta  */
+.jumbotron {
+    height: 400px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+/* contenitore clearfix  */
+.containerMain {
+    background-color: #0086ff;
+    margin-bottom: 10px;
+}
+
+/* clearfix  */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sectionHeader {
+    height: 50px;
+    background-color: #abcfe7;
+}
+
+/* widget laterale */
+.sidebar {
+    float: left;
+    width: 19%;
+    height: 400px;
+    background-color: #abcfe7;
+    margin: 1% 0;
+}
+
+/* sezione principale centrale */
+.article {
+    float: left;
+    width: 60%;
+    height: 400px;
+    background-color: #abcfe7;
+    margin: 1%;
+}
+
+footer {
+    height: 100px;
+    background-color: #8801fe;
+    margin-bottom: 20px;
+}
