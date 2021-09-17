@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* contenitore centratura */
 .containerBody {
@@ -11,10 +16,33 @@
     margin: 0 auto;
 }
 
+
+/* sezione header  */
 header {
-    height: 100px;
-    background-color: #e579e6;
-    margin: 20px 0;
+    /* height: 100px; */
+    /* background-color: #e579e6; */
+    margin: 20px 0 40px;
+}
+
+#logo {
+    height: 80px;
+    padding-right: 20px;
+    border-right: solid 1px #e5e5e5;
+}
+
+#navBar {
+    margin-top: 30px;
+}
+
+#navBar li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+#navBar li a {
+    text-decoration: none;
+    color: #888888;
 }
 
 /* sezione illustrazione e cta  */
