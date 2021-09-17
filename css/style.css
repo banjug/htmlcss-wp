@@ -1,3 +1,6 @@
+/* //////////////// */
+/* sezione generale */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
 
 * {
@@ -31,6 +34,7 @@ body {
     border-radius: 10px;
 }
 
+/* /////////////// */
 /* sezione header  */
 header {
     /* height: 100px; */
@@ -60,6 +64,7 @@ header {
     color: #888888;
 }
 
+/* //////////////////////////// */
 /* sezione illustrazione e cta  */
 .jumbotron {
     height: 500px;
@@ -89,15 +94,17 @@ header {
     font-size: 16px;
 }
 
+/* //////////////////// */
+/* sezione main pagina */
+
 /* contenitore clearfix main  */
 .containerMain {
     margin-bottom: 50px;
 }
 
-
-/* sezione titolo main section  */
+/* sezione header main section  */
 .sectionHeader {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sectionHeader h2 {
@@ -111,24 +118,25 @@ header {
     color: #888888;
 }
 
-
 /* sezione colonne articoli */
 
-/* widget laterale */
+/* colonna laterale */
 .sidebar {
     float: left;
-    width: 19%;
-    margin: 1% 0;
+    width: 20%;
 }
 
 /* sezione principale centrale */
 .article {
     float: left;
-    width: 60%;
-    margin: 1%;
+    width: 56%;
+    margin: 0 2%;
 }
 
 /* contenuto colonne */
+.imgContainer {
+    margin-bottom: 20px;
+}
 
 .articleImg {
     width: 100%;
@@ -153,7 +161,7 @@ header {
 
 .mainSubtitle {
     font-weight: 700;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .articleText {
@@ -161,6 +169,7 @@ header {
     color: #888888;
 }
 
+/* /////////////// */
 /* sezione footer  */
 footer {
     margin-bottom: 50px;
